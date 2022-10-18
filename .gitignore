@@ -22,3 +22,5 @@ yarn-debug.log*
 .yarn-integrity
 
 /config/master.key
+*password*
+/db/data.*
