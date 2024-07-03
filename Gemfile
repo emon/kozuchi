@@ -6,7 +6,6 @@ gem 'bootstrap-sass'
 gem 'dynamic_form'
 gem 'haml-rails'
 gem 'httpclient'
-gem 'libv8'
 gem 'passenger'
 gem 'pg', '~> 0.18'
 gem 'sassc-rails'
@@ -16,8 +15,8 @@ gem 'rails-observers'
 gem 'rake'
 gem 'rails_autolink'
 gem 'rb-readline'
-gem 'therubyracer'
-gem 'webpacker'
+gem 'execjs'
+gem "sprockets-rails"
 
 group :assets do
   gem 'uglifier'
